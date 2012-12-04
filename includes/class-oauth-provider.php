@@ -397,6 +397,7 @@ class WP_OAuthProvider {
 			return FALSE;
 
 		$url = $parsed['scheme'] . '://' . $parsed['host'] .
+			( isset($parsed['port'])  ? ':'.$parsed['port'] : '' ) .
 			( isset($parsed['path'])  ? $parsed['path'] : '/' ) .
 			( isset($parsed['query']) ? '?' . $parsed['query'] : '' );
 		unset($parsed);
@@ -1036,7 +1037,7 @@ class WP_OAuthProvider {
 
 			$form  = '<form method="post" id="authorize">';
 			$form .= '<input name="oauth_token" type="hidden" value="'.$token_key.'" />';
-			$form .= '<input name="callbackurl" type="hidden" value="'.$callbackurl.'" />';
+			$form .= '<input name="oauth_callback" type="hidden" value="'.$callbackurl.'" />';
 			$form .= '<input type="submit" name="allow" class="button-primary" value="' . __('Allow', $this->textdomain) . '" class="button" /> ';
 			$form .= '<input type="submit" name="deny" class="button-primary" value="' . __('Deny', $this->textdomain) . '" class="button" />';
 			$form .= '</form>'."\n";
