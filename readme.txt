@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9S8AJ
 Tags: OAuth
 Requires at least: 2.8
 Tested up to: 3.4.1
-Stable tag: 0.5.2
+Stable tag: 0.5.3
 
 A plugin to allow WordPress to use an OAuth authenticator.
 
@@ -65,6 +65,11 @@ To execute the registered sayHello method, access the URL below:
 none
 
 == Changelog == 
+
+**0.5.3 - December 4, 2012**
+callbackurl should be oauth_callback (on the authorize form)
+port numbers on callback urls should be preserved.
+thx. timginn (https://github.com/timginn)
 
 **0.3.2 - August 17, 2012**
 Parameter is called "callbackurl" which should be called "oauth_callback".
