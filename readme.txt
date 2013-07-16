@@ -3,8 +3,8 @@ Contributors: wokamoto, megumithemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9S8AJCY7XB8F4&lc=JP&item_name=WordPress%20Plugins&item_number=wp%2dplugins&currency_code=JPY&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Tags: OAuth
 Requires at least: 2.8
-Tested up to: 3.4.1
-Stable tag: 0.5.3
+Tested up to: 3.5.2
+Stable tag: 0.5.4
 
 A plugin to allow WordPress to use an OAuth authenticator.
 
@@ -28,6 +28,7 @@ So, what I've noticed is that in this file one parameter is called "callbackurl"
 = Localization =
 "OAuth Provider" has been translated into languages. Our thanks and appreciation must go to the following for their contributions:
 
+* French (fr_FR) - Jeremy Castellano
 * Japanese (ja) - [OKAMOTO Wataru](http://dogmap.jp/ "dogmap.jp") (plugin author)
 
 If you have translated into your language, please let me know.
@@ -65,6 +66,9 @@ To execute the registered sayHello method, access the URL below:
 none
 
 == Changelog == 
+
+**0.5.4 - July 16, 2013**
+Added languages/oauth-provider-fr_FR.po and .mo
 
 **0.5.3 - December 4, 2012**
 callbackurl should be oauth_callback (on the authorize form)

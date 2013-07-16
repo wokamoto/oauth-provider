@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oauth-provider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-26 12:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: Emetophobic <contact@emetophobic.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: Français\n"
+
+# description
+msgid "A plugin to allow WordPress to use an OAuth authenticator."
+msgstr "Une extension permettant à Wordpress d'utiliser OAuth"
+
+#: ../oauth-provider.php:295
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../oauth-provider.php:324 ../oauth-provider.php:325
+#: ../oauth-provider.php:337 ../oauth-provider.php:349
+msgid "OAuth Provider"
+msgstr "Fournisseur OAuth"
+
+#: ../oauth-provider.php:338
+msgid "Consumers"
+msgstr "Clients"
+
+#: ../oauth-provider.php:350
+msgid "Access Tokens"
+msgstr "Jetons d'accès"
+
+#: ../oauth-provider.php:383 ../oauth-provider.php:439
+#: ../oauth-provider.php:460 ../oauth-provider.php:544
+msgid "Done!"
+msgstr "Terminé!"
+
+#: ../oauth-provider.php:392
+msgid "OAuth Provider Options"
+msgstr "Options du fournisseur"
+
+#: ../oauth-provider.php:441 ../oauth-provider.php:445
+#: ../oauth-provider.php:462 ../oauth-provider.php:546
+msgid "Failure!!"
+msgstr "Echec!!"
+
+#: ../oauth-provider.php:469
+msgid "OAuth Provider &raquo; Consumers"
+msgstr "Fournisseur OAuth &raquo; Clients"
+
+#: ../oauth-provider.php:480 ../oauth-provider.php:566
+msgid "Consumer Name"
+msgstr "Nom du client"
+
+#: ../oauth-provider.php:481 ../oauth-provider.php:567
+msgid "Consumer Description"
+msgstr "Description du client"
+
+#: ../oauth-provider.php:482
+msgid "Consumer Key"
+msgstr "Clé client"
+
+#: ../oauth-provider.php:483
+msgid "Consumer Secret"
+msgstr "Hash client secret"
+
+#: ../oauth-provider.php:484
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../oauth-provider.php:489
+msgid "Name"
+msgstr "Nom"
+
+#: ../oauth-provider.php:490
+msgid "Description"
+msgstr "Description"
+
+#: ../oauth-provider.php:491
+msgid "Add Consumer"
+msgstr "Ajouter un client"
+
+#: ../oauth-provider.php:493
+msgid "Remove Consumer"
+msgstr "Supprimer un client"
+
+#: ../oauth-provider.php:552
+msgid "OAuth Provider &raquo; Access Tokens"
+msgstr "Fournisseur OAuth &raquo; Jetons d'accès"
+
+#: ../oauth-provider.php:568
+msgid "Access Key"
+msgstr "Clé d'accès"
+
+#: ../oauth-provider.php:569
+msgid "Access Secret"
+msgstr "Hash d'accès secret"
+
+#: ../oauth-provider.php:570
+msgid "Revoke"
+msgstr "Refuser"
+
+#: ../oauth-provider.php:576
+msgid "Revoke Access"
+msgstr "Refuser l'accès"
+
+#: ../oauth-provider.php:657
+msgid "Not Login"
+msgstr "Pas de connexion"
+
+#: ../oauth-provider.php:687
+msgid "Authorize"
+msgstr "Autoriser"
+
+#: ../oauth-provider.php:695
+msgid "Allowed."
+msgstr "Autorisé."
+
+#: ../oauth-provider.php:710
+msgid "Denied."
+msgstr "Refusé."
+
+#: ../oauth-provider.php:714
+msgid "An application would like to connect to your account."
+msgstr "Une application voudrais se connecter à votre compte."
+
+#: ../oauth-provider.php:716
+#, php-format
+msgid ""
+"The application &quot;%s&quot; would like the ability to access and update "
+"your data on &quot;%s&quot;."
+msgstr ""
+"L'application &quot;%s&quot; demande la permissions d'accéder à vos données "
+"et de les mettre à jour sur &quot;%s&quot;."
+
+#: ../oauth-provider.php:721
+#, php-format
+msgid ""
+"Sign out if you want to connect to an account other than &quot;%s&quot;."
+msgstr ""
+"Deconnectez-vous si vous souhaitez vous connecter à une compte autre que "
+"celui de &quot;%s&quot;."
+
+msgid "Sign in if you want to connect to an account."
+msgstr "Connectez-vous si vous souhaitez vous connecter à un compte."
+
+#: ../oauth-provider.php:725
+#, php-format
+msgid "Allow <strong>&quot;%s&quot;</strong> access?"
+msgstr "Autoriser l'accès de <strong>&quot;%s&quot;</strong>?"
+
+#: ../oauth-provider.php:748
+msgid "Allow"
+msgstr "Autoriser"
+
+#: ../oauth-provider.php:749
+msgid "Deny"
+msgstr "Refuser"
+
+#: ../oauth-provider.php:789
+msgid "Unauthorized Access!"
+msgstr "Accès non-autorisé"
+
+#: ../oauth-provider.php:804
+msgid "Method Not Found!"
+msgstr "Méthode introuvable"
+
+msgid "Request Token not found!"
+msgstr "Jeton de requête introuvable"
+
+msgid "Duplicate Name!"
+msgstr "Nom dupliqué!"
+
+msgid "Unauthorized Access Token!"
+msgstr "Jeton d'accès non-autorisé"

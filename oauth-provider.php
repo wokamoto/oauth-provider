@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: OAuth Provider
-Version: 0.5.3
+Version: 0.5.4
 Plugin URI: http://wordpress.org/extend/plugins/oauth-provider/
 Description: A plugin to allow WordPress to use an OAuth authenticator.
 Author: wokamoto
@@ -12,7 +12,7 @@ Domain Path: /languages/
 License:
  Released under the GPL license
   http://www.gnu.org/copyleft/gpl.html
-  Copyright 2011 - 2012 wokamoto (email : wokamoto1973@gmail.com)
+  Copyright 2011 - 2013 wokamoto (email : wokamoto1973@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
